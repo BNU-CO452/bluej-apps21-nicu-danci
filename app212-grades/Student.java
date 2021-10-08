@@ -7,7 +7,7 @@ import java.util.*;
  * Modified by Derek Peacock & Nicholas Day
  * @version 2021-08-18
  */
-public class Student
+public class Student extends Course
 {
     // the student ID
     private int id;
