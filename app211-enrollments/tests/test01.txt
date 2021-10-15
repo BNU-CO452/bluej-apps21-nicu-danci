@@ -1,0 +1,19 @@
+Course computing = new Course("BT1TG1", "BSc Computing");
+computing.print();
+ --------------------------------
+   App211: Course Details
+ --------------------------------
+
+ Course Code: BT1TG1: BSc Computing
+
+Student nicu = new Student("Nicoara Danci", 22044127);
+nicu.print();
+ Student ID: 22044127 Name: Nicoara Danci
+nicu.enrol(computing);
+nicu.printCourse();
+ --------------------------------
+   App211: Course Details
+ --------------------------------
+
+ Course Code: BT1TG1: BSc Computing
+

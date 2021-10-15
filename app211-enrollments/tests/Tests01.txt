@@ -1,3 +1,0 @@
-Student derek = new Student("Derek", 12345678);
-Course Computing = new Course("COMP01", "BSc Computing");
-derek.enrol(Computing);
