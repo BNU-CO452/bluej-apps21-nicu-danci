@@ -24,7 +24,7 @@ public class Student extends Course
      */
     public Student()
     {
-        this("Derek", 12345678);
+        this("Nicoara Danci", 22044127);
     }
     
     /**
@@ -102,9 +102,16 @@ public class Student extends Course
         course.print();
     }
     
-    private void printModules()
+    private void printModule()
     {
-
+        for(ModuleMark mark : marks)
+        {
+            System.out.println(mark.getModule().getCode());
+            System.out.print(" :");
+            System.out.println(mark.getModule().getTitle());
+            System.out.print(" \t:");     
+        System.out.print(mark.getCredit());
+        }
     }
     
     public void printTranscript()

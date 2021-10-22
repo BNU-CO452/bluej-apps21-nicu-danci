@@ -1,0 +1,31 @@
+Student nick = new Student();
+nick.print();
+ Student ID: 22044127, Nicoara Danci
+Course computing = new Course();
+nick.enrol(computing);
+nick.printCourse();
+ Student ID: 22044127, Nicoara Danci
+
+ Course BT1CWD1: BSc Computing & Web
+Module co452 = new Module("CO452", "Programming Concepts");
+computing.addModule(co452);
+ModuleMark nickCo452Mark = new ModuleMark(co452);
+nickCo452Mark.setMark(95);
+nick.addMark(nickCo452Mark);
+nick.printTranscript();
+ ------------------------------------
+ App21-02: Exam Board Transcript 2021
+        by student name
+ ------------------------------------
+ Student ID: 22044127, Nicoara Danci
+
+ Course BT1CWD1: BSc Computing & Web
+
+ CO452: 	Programming Concepts
+
+ ---- 	 -------------------- 	 ------	 ---- 	 -----
+ Code 	 Module 		Credit	 Mark 	 Grade
+ ---- 	 -------------------- 	 ------	 ---- 	 -----
+
+
+ No Final Course Grade Yet!
