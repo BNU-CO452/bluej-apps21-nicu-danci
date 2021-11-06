@@ -1,0 +1,33 @@
+Student nick = new Student();
+Course computingWeb = new Course();
+nick.enrol(computingWeb);
+nick.printTranscript();
+ ------------------------------------
+ App21-02: Exam Board Transcript 2021
+        by student name
+ ------------------------------------
+ Student ID: 22044127, Nicoara Danci
+
+ Course BT1CWD1: BSc Computing & Web
+
+ CO452: Programming Concepts	  15 credits
+ CO450: Computer Architectures	  15 credits
+ CO454: Digital Technologies 
+    and Professional Practice	  15 credits
+ CO456: Web Development	  15 credits
+
+ ---- 	 -------------------- 	 ------	 ---- 	 -----
+ Code 	 Module 		Credit	 Mark 	 Grade
+ ---- 	 -------------------- 	 ------	 ---- 	 -----
+
+ CO452: Programming Concepts	  15	83	A
+
+ CO450: Computer Architectures	  15	64	B
+
+ CO454: Digital Technologies 
+    and Professional Practice	  15	45	D
+
+ CO456: Web Development	  0	26	F
+
+
+ Final Course Grade = C

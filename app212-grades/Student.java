@@ -4,8 +4,8 @@ import java.util.*;
  * It holds the student details relevant in our context.
  * 
  * @author Michael Kölling and David Barnes
- * Modified by Derek Peacock & Nicholas Day
- * @version 2021-08-18
+ * Modified by Nicoara Danci
+ * @version 01/11/2021
  */
 public class Student
 {
@@ -67,7 +67,16 @@ public class Student
      */
     public void awardTestMarks()
     {
-        
+        int value = 83;
+        for (Module module : course.modules)
+        {
+            ModuleMark mark = new ModuleMark(module);
+            mark.setMark(value);
+            
+            value = value - 9;
+            
+            marks.add(mark);
+        }
     }
     
     /**
@@ -104,7 +113,12 @@ public class Student
     
     private void printModules()
     {
-        course.printModules();
+       for (ModuleMark mark: marks)
+       {
+           mark.print();
+           System.out.println("\t" + course.convertToGrade(mark.getValue()));
+
+        }
 
     }
     

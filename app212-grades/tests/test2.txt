@@ -1,0 +1,134 @@
+Course computingWeb = new Course();
+computingWeb.print();
+
+ Course BT1CWD1: BSc Computing & Web
+
+ CO452: Programming Concepts	  15 credits
+ CO450: Computer Architectures	  15 credits
+ CO454: Digital Technologies 
+    and Professional Practice	  15 credits
+ CO456: Web Development	  15 creditsStudent nick = new Student();
+Course computingWeb = new Course();
+nick.enrol(computingWeb);
+nick.printTranscript();
+ ------------------------------------
+ App21-02: Exam Board Transcript 2021
+        by student name
+ ------------------------------------
+ Student ID: 22044127, Nicoara Danci
+
+ Course BT1CWD1: BSc Computing & Web
+
+ CO452: Programming Concepts	  15 credits
+ CO450: Computer Architectures	  15 credits
+ CO454: Digital Technologies 
+    and Professional Practice	  15 credits
+ CO456: Web Development	  15 credits
+
+ ---- 	 -------------------- 	 ------	 ---- 	 -----
+ Code 	 Module 		Credit	 Mark 	 Grade
+ ---- 	 -------------------- 	 ------	 ---- 	 -----
+
+ CO452: Programming Concepts	  15	83
+ CO450: Computer Architectures	  15	74
+ CO454: Digital Technologies 
+    and Professional Practice	  15	65
+ CO456: Web Development	  15	56
+
+ No Final Course Grade Yet!
+Student nick = new Student();
+Course computingWeg = new Course();
+Course computingWeb = new Course();
+nick.enrol(computingWeb);
+nick.printTranscript();
+ ------------------------------------
+ App21-02: Exam Board Transcript 2021
+        by student name
+ ------------------------------------
+ Student ID: 22044127, Nicoara Danci
+
+ Course BT1CWD1: BSc Computing & Web
+
+ CO452: Programming Concepts	  15 credits
+ CO450: Computer Architectures	  15 credits
+ CO454: Digital Technologies 
+    and Professional Practice	  15 credits
+ CO456: Web Development	  15 credits
+
+ ---- 	 -------------------- 	 ------	 ---- 	 -----
+ Code 	 Module 		Credit	 Mark 	 Grade
+ ---- 	 -------------------- 	 ------	 ---- 	 -----
+
+ CO452: Programming Concepts	  15	83
+ CO450: Computer Architectures	  15	74
+ CO454: Digital Technologies 
+    and Professional Practice	  15	65
+ CO456: Web Development	  15	56
+
+ No Final Course Grade Yet!
+Student nick = new Student();
+Course computingWeb = new Course();
+nick.enrol(computingWeb);
+nick.printTranscript();
+ ------------------------------------
+ App21-02: Exam Board Transcript 2021
+        by student name
+ ------------------------------------
+ Student ID: 22044127, Nicoara Danci
+
+ Course BT1CWD1: BSc Computing & Web
+
+ CO452: Programming Concepts	  15 credits
+ CO450: Computer Architectures	  15 credits
+ CO454: Digital Technologies 
+    and Professional Practice	  15 credits
+ CO456: Web Development	  15 credits
+
+ ---- 	 -------------------- 	 ------	 ---- 	 -----
+ Code 	 Module 		Credit	 Mark 	 Grade
+ ---- 	 -------------------- 	 ------	 ---- 	 -----
+
+ CO452: Programming Concepts	  15	83	A
+
+ CO450: Computer Architectures	  15	74	A
+
+ CO454: Digital Technologies 
+    and Professional Practice	  15	65	B
+
+ CO456: Web Development	  15	56	C
+
+
+ No Final Course Grade Yet!
+Student nick = new Student();
+Course computingWeb = new Course();
+nick.enrol(computingWeb);
+nick.printTranscript();
+ ------------------------------------
+ App21-02: Exam Board Transcript 2021
+        by student name
+ ------------------------------------
+ Student ID: 22044127, Nicoara Danci
+
+ Course BT1CWD1: BSc Computing & Web
+
+ CO452: Programming Concepts	  15 credits
+ CO450: Computer Architectures	  15 credits
+ CO454: Digital Technologies 
+    and Professional Practice	  15 credits
+ CO456: Web Development	  15 credits
+
+ ---- 	 -------------------- 	 ------	 ---- 	 -----
+ Code 	 Module 		Credit	 Mark 	 Grade
+ ---- 	 -------------------- 	 ------	 ---- 	 -----
+
+ CO452: Programming Concepts	  15	83	A
+
+ CO450: Computer Architectures	  15	74	A
+
+ CO454: Digital Technologies 
+    and Professional Practice	  15	65	B
+
+ CO456: Web Development	  15	56	C
+
+
+ Final Course Grade = B
