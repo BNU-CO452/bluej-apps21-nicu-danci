@@ -1,16 +1,20 @@
 Student nick = new Student();
 nick.print();
  Student ID: 22044127, Nicoara Danci
-Course computing = new Course();
-nick.enrol(computing);
+Course computingWeb = new Course();
+nick.enrol(computingWeb);
 nick.printCourse();
  Student ID: 22044127, Nicoara Danci
 
  Course BT1CWD1: BSc Computing & Web
 Module co452 = new Module("CO452", "Programming Concepts");
-computing.addModule(co452);
-ModuleMark nickCo452Mark = new ModuleMark(co452);
-nickCo452Mark.setMark(95);
+computingWeb.addModule(co452);
+computingWeb.print();
+
+ Course BT1CWD1: BSc Computing & Web
+
+ CO452: 	Programming ConceptsModuleMark nickCo452Mark = new ModuleMark(co452);
+nickCo452Mark.setMark(73);
 nick.addMark(nickCo452Mark);
 nick.printTranscript();
  ------------------------------------
@@ -27,5 +31,6 @@ nick.printTranscript();
  Code 	 Module 		Credit	 Mark 	 Grade
  ---- 	 -------------------- 	 ------	 ---- 	 -----
 
+ CO452: 	Programming Concepts
 
  No Final Course Grade Yet!

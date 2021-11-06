@@ -7,7 +7,7 @@ import java.util.*;
  * Modified by Derek Peacock & Nicholas Day
  * @version 2021-08-18
  */
-public class Student extends Course
+public class Student
 {
     // the student ID
     private int id;
@@ -102,16 +102,10 @@ public class Student extends Course
         course.print();
     }
     
-    private void printModule()
+    private void printModules()
     {
-        for(ModuleMark mark : marks)
-        {
-            System.out.println(mark.getModule().getCode());
-            System.out.print(" :");
-            System.out.println(mark.getModule().getTitle());
-            System.out.print(" \t:");     
-        System.out.print(mark.getCredit());
-        }
+        course.printModules();
+
     }
     
     public void printTranscript()
@@ -129,7 +123,8 @@ public class Student extends Course
         System.out.println(" Code \t Module \t\tCredit\t Mark \t Grade");
         System.out.println(" ---- \t -------------------- \t ------\t ---- \t -----");
         
-       
+        printModules();
+        
         Grades finalGrade = course.calculateGrade(marks);
         
         System.out.println();

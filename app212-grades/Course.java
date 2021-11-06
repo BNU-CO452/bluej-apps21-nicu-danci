@@ -89,9 +89,10 @@ public class Course
      */
     public void printModules()
     {
-        for (Module module : modules)
-        {
-            module.print();
-        }
+     for (Module module : modules)
+     {
+        module.print();
+        
+     }
     }
 }
