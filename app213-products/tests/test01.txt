@@ -1,0 +1,24 @@
+Product asusZenBook = new Product(100, "Asus ZenBook 13 inch");
+asusZenBook.print();
+ ID 100: Asus ZenBook 13 inch stock level: 0
+asusZenBook.decreaseQuantity(3);
+asusZenBook.print();
+ ID 100: Asus ZenBook 13 inch stock level: 0
+asusZenBook.increaseQuantity(17);
+asusZenBook.print();
+ ID 100: Asus ZenBook 13 inch stock level: 17
+asusZenBook.decreaseQuantity(9);
+asusZenBook.print();
+ ID 100: Asus ZenBook 13 inch stock level: 8
+Product macBookAir = new Product(101, "MacBook Air 13.3 inch");
+StockList itLandStockList = new StockList();
+itLandStockList.add(asusZenBook);
+itLandStockList.add(macBookAir);
+itLandStockList.print();
+
+ IT Land Stock List
+ ====================
+
+ ID 100: Asus ZenBook 13 inch stock level: 8
+ ID 101: MacBook Air 13.3 inch stock level: 0
+
