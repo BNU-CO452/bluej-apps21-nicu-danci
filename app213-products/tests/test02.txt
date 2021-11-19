@@ -1,0 +1,103 @@
+StockList itLandStockList = new StockList();
+StockDemo stockDem1 = new StockDemo(itLandStockList);
+itLandStockList.print();
+
+ IT Land Stock List
+ ====================
+
+ ID 101: Asus Zenbook 13 inch stock level: 0
+ ID 102: Lenovo IdeaPad L340 stock level: 0
+ ID 103: Samsung Galaxy Book stock level: 0
+ ID 104: MacBook Air 13.3 inch stock level: 0
+ ID 105: Lenovo ThinkPad C13 stock level: 0
+ ID 106: Asus A516 15.6 inch stock level: 0
+ ID 107: MacBook Pro 13.3 inch stock level: 0
+ ID 108: Lenovo Legion stock level: 0
+ ID 109: DELL XPS stock level: 0
+ ID 110: HP 250 stock level: 0
+
+stockDem1.runDemo();
+
+ IT Land Stock List
+ ====================
+
+ ID 101: Asus Zenbook 13 inch stock level: 0
+ ID 102: Lenovo IdeaPad L340 stock level: 0
+ ID 103: Samsung Galaxy Book stock level: 0
+ ID 104: MacBook Air 13.3 inch stock level: 0
+ ID 105: Lenovo ThinkPad C13 stock level: 0
+ ID 106: Asus A516 15.6 inch stock level: 0
+ ID 107: MacBook Pro 13.3 inch stock level: 0
+ ID 108: Lenovo Legion stock level: 0
+ ID 109: DELL XPS stock level: 0
+ ID 110: HP 250 stock level: 0
+
+Product100not found
+Purchased 117 of Asus Zenbook 13 inch
+Purchased 102 of Lenovo IdeaPad L340
+Purchased 27 of Samsung Galaxy Book
+Purchased 192 of MacBook Air 13.3 inch
+Purchased 45 of Lenovo ThinkPad C13
+Purchased 10 of Asus A516 15.6 inch
+Purchased 117 of MacBook Pro 13.3 inch
+Purchased 9 of Lenovo Legion
+Purchased 33 of DELL XPS
+Purchased 52 of HP 250
+
+ IT Land Stock List
+ ====================
+
+ ID 101: Asus Zenbook 13 inch stock level: 117
+ ID 102: Lenovo IdeaPad L340 stock level: 102
+ ID 103: Samsung Galaxy Book stock level: 27
+ ID 104: MacBook Air 13.3 inch stock level: 192
+ ID 105: Lenovo ThinkPad C13 stock level: 45
+ ID 106: Asus A516 15.6 inch stock level: 10
+ ID 107: MacBook Pro 13.3 inch stock level: 117
+ ID 108: Lenovo Legion stock level: 9
+ ID 109: DELL XPS stock level: 33
+ ID 110: HP 250 stock level: 52
+
+Product100not found
+Sold 21 of Asus Zenbook 13 inch
+Sold 26 of Lenovo IdeaPad L340
+Sold 26 of Samsung Galaxy Book
+Sold 17 of MacBook Air 13.3 inch
+Sold 13 of Lenovo ThinkPad C13
+Cannot sell 11 of Asus A516 15.6 inch because only have 10
+Sold 12 of MacBook Pro 13.3 inch
+Cannot sell 23 of Lenovo Legion because only have 9
+Sold 14 of DELL XPS
+Sold 17 of HP 250
+
+ IT Land Stock List
+ ====================
+
+ ID 101: Asus Zenbook 13 inch stock level: 96
+ ID 102: Lenovo IdeaPad L340 stock level: 76
+ ID 103: Samsung Galaxy Book stock level: 1
+ ID 104: MacBook Air 13.3 inch stock level: 175
+ ID 105: Lenovo ThinkPad C13 stock level: 32
+ ID 106: Asus A516 15.6 inch stock level: 10
+ ID 107: MacBook Pro 13.3 inch stock level: 105
+ ID 108: Lenovo Legion stock level: 9
+ ID 109: DELL XPS stock level: 19
+ ID 110: HP 250 stock level: 35
+
+itLandStockList.remove(5);
+Removed product index number  5
+itLandStockList.print();
+
+ IT Land Stock List
+ ====================
+
+ ID 101: Asus Zenbook 13 inch stock level: 96
+ ID 102: Lenovo IdeaPad L340 stock level: 76
+ ID 103: Samsung Galaxy Book stock level: 1
+ ID 104: MacBook Air 13.3 inch stock level: 175
+ ID 105: Lenovo ThinkPad C13 stock level: 32
+ ID 107: MacBook Pro 13.3 inch stock level: 105
+ ID 108: Lenovo Legion stock level: 9
+ ID 109: DELL XPS stock level: 19
+ ID 110: HP 250 stock level: 35
+

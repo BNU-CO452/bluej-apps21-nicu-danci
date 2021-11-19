@@ -4,8 +4,9 @@ import java.util.ArrayList;
  * Manage the stock in a business.
  * The stock is described by zero or more Products.
  * 
- * @author Nicoara Danci 
- * @version 11/
+ * @author Michael Kölling and David Barnes
+ * Modified by Nicoara Danci
+ * @version 11/11/2021
  */
 public class StockList
 {
@@ -27,6 +28,17 @@ public class StockList
     public void add(Product item)
     {
         stock.add(item);
+    }
+    
+    /**
+     * Remove a product from the list.
+     * @param item The product item to be added.
+     */
+    public void remove(int index)
+    
+    {
+        stock.remove(index);
+        System.out.println("Removed product index number  " + index);
     }
     
     /**
