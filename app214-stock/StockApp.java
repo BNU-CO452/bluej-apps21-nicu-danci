@@ -4,14 +4,14 @@
  * stock manager so that users can add, edit,
  * print and remove stock products
  *
- * @author Student Name
- * @version 0.1
+ * @author Nicoara Danci
+ * @version 25/11/2021
  */
 public class StockApp
 {
     private InputReader reader;
     
-    //private ProductList stock;
+    private StockList stock;
     
     /**
      * Constructor for objects of class StockApp
@@ -20,8 +20,8 @@ public class StockApp
     {
         reader = new InputReader();
         
-        //stock = new ProductList();
-        //StockDemo demo = new StockDemo(stock);
+        stock = new StockList();
+        StockDemo demo = new StockDemo(stock);
     }
 
     /**
@@ -51,12 +51,29 @@ public class StockApp
         }
         else if(choice.equals("print"))
         {
-            //stock.print();
+            stock.print();
         }
+        else if(choice.equals("add"))
+        {
+            addProduct();
+        }
+
         
         return false;
     }
    
+    private void addProduct()
+    {
+        System.out.println("Adding a new Product");
+        System.out.println();
+        
+        int id = reader.getInt("Please enter new product ID >");
+        String name = reader.getString("Please enter new product name>");
+        
+        Product product = new Product (id, name);
+        stock.add(product);
+        stock.print();
+    }
     /**
      * Print out a menu of operation choices
      */
@@ -77,7 +94,7 @@ public class StockApp
     {
         System.out.println("********************************");
         System.out.println("  App21-04: Stock Application ");
-        System.out.println("      by Student Name");
+        System.out.println("      by Nicoara Danci");
         System.out.println("********************************");
     }
 }

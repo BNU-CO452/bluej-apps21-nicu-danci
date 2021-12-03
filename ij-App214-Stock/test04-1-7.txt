@@ -1,0 +1,208 @@
+"C:\Program Files\Java\jdk-17.0.1\bin\java.exe" "-javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Educational Edition 2021.2.3\lib\idea_rt.jar=59484:C:\Program Files\JetBrains\IntelliJ IDEA Educational Edition 2021.2.3\bin" -Dfile.encoding=UTF-8 -classpath D:\facultate\repositories\bluej-apps21-nicu-danci\ij-App214-Stock\out\production\ij-App214-Stock Main
+********************************
+  App21-04: Stock Application 
+      by Nicoara Danci
+********************************
+
+    1 Add:        Add a new product
+    2 Remove:     Remove a product
+    3 Print:      Print all products
+    4 Buy:        Buying products
+    5 Sell:       Selling products
+    6 Search:     Search product
+    7 Low Stock:  View low stock products
+    8 Restock:    Restock low stock products
+    9 Quit:       Quit the program
+
+Please enter your choice > print
+
+ IT Land Stock List
+ ====================
+
+ ID 101: Asus Zenbook 13 inch stock level: 0
+ ID 102: Lenovo IdeaPad L340 stock level: 0
+ ID 103: Samsung Galaxy Book stock level: 0
+ ID 104: MacBook Air 13.3 inch stock level: 0
+ ID 105: Lenovo ThinkPad C13 stock level: 0
+ ID 106: Asus A516 15.6 inch stock level: 0
+ ID 107: MacBook Pro 13.3 inch stock level: 0
+ ID 108: Lenovo Legion stock level: 0
+ ID 109: DELL XPS stock level: 0
+ ID 110: HP 250 stock level: 0
+
+********************************
+  App21-04: Stock Application 
+      by Nicoara Danci
+********************************
+
+    1 Add:        Add a new product
+    2 Remove:     Remove a product
+    3 Print:      Print all products
+    4 Buy:        Buying products
+    5 Sell:       Selling products
+    6 Search:     Search product
+    7 Low Stock:  View low stock products
+    8 Restock:    Restock low stock products
+    9 Quit:       Quit the program
+
+Please enter your choice > add
+Adding a new Product
+
+Please enter new product ID >
+120
+Please enter new product name >
+Your input is blank!
+
+Please enter new product name >Asus ROG 13 inch
+You've successfully added a new product ! 
+
+New stock list: 
+
+
+ IT Land Stock List
+ ====================
+
+ ID 101: Asus Zenbook 13 inch stock level: 0
+ ID 102: Lenovo IdeaPad L340 stock level: 0
+ ID 103: Samsung Galaxy Book stock level: 0
+ ID 104: MacBook Air 13.3 inch stock level: 0
+ ID 105: Lenovo ThinkPad C13 stock level: 0
+ ID 106: Asus A516 15.6 inch stock level: 0
+ ID 107: MacBook Pro 13.3 inch stock level: 0
+ ID 108: Lenovo Legion stock level: 0
+ ID 109: DELL XPS stock level: 0
+ ID 110: HP 250 stock level: 0
+ ID 120: Asus ROG 13 inch stock level: 0
+
+********************************
+  App21-04: Stock Application 
+      by Nicoara Danci
+********************************
+
+    1 Add:        Add a new product
+    2 Remove:     Remove a product
+    3 Print:      Print all products
+    4 Buy:        Buying products
+    5 Sell:       Selling products
+    6 Search:     Search product
+    7 Low Stock:  View low stock products
+    8 Restock:    Restock low stock products
+    9 Quit:       Quit the program
+
+Please enter your choice > add
+Adding a new Product
+
+Please enter new product ID >
+105
+This product ID already exists !
+********************************
+  App21-04: Stock Application 
+      by Nicoara Danci
+********************************
+
+    1 Add:        Add a new product
+    2 Remove:     Remove a product
+    3 Print:      Print all products
+    4 Buy:        Buying products
+    5 Sell:       Selling products
+    6 Search:     Search product
+    7 Low Stock:  View low stock products
+    8 Restock:    Restock low stock products
+    9 Quit:       Quit the program
+
+Please enter your choice > 
+Your input is blank!
+
+Please enter your choice > remove
+Removing a Product
+
+Please enter a product ID >
+120
+Asus ROG 13 inch successfully removed ! 
+
+New stock list:
+
+
+ IT Land Stock List
+ ====================
+
+ ID 101: Asus Zenbook 13 inch stock level: 0
+ ID 102: Lenovo IdeaPad L340 stock level: 0
+ ID 103: Samsung Galaxy Book stock level: 0
+ ID 104: MacBook Air 13.3 inch stock level: 0
+ ID 105: Lenovo ThinkPad C13 stock level: 0
+ ID 106: Asus A516 15.6 inch stock level: 0
+ ID 107: MacBook Pro 13.3 inch stock level: 0
+ ID 108: Lenovo Legion stock level: 0
+ ID 109: DELL XPS stock level: 0
+ ID 110: HP 250 stock level: 0
+
+********************************
+  App21-04: Stock Application 
+      by Nicoara Danci
+********************************
+
+    1 Add:        Add a new product
+    2 Remove:     Remove a product
+    3 Print:      Print all products
+    4 Buy:        Buying products
+    5 Sell:       Selling products
+    6 Search:     Search product
+    7 Low Stock:  View low stock products
+    8 Restock:    Restock low stock products
+    9 Quit:       Quit the program
+
+Please enter your choice > 
+Your input is blank!
+
+Please enter your choice > remove
+Removing a Product
+
+Please enter a product ID >
+150
+Product ID not found !
+********************************
+  App21-04: Stock Application 
+      by Nicoara Danci
+********************************
+
+    1 Add:        Add a new product
+    2 Remove:     Remove a product
+    3 Print:      Print all products
+    4 Buy:        Buying products
+    5 Sell:       Selling products
+    6 Search:     Search product
+    7 Low Stock:  View low stock products
+    8 Restock:    Restock low stock products
+    9 Quit:       Quit the program
+
+Please enter your choice > 
+Your input is blank!
+
+Please enter your choice > buy
+Buying products
+
+Please enter a product ID >
+157
+Product ID not found !
+********************************
+  App21-04: Stock Application 
+      by Nicoara Danci
+********************************
+
+    1 Add:        Add a new product
+    2 Remove:     Remove a product
+    3 Print:      Print all products
+    4 Buy:        Buying products
+    5 Sell:       Selling products
+    6 Search:     Search product
+    7 Low Stock:  View low stock products
+    8 Restock:    Restock low stock products
+    9 Quit:       Quit the program
+
+Please enter your choice > 
+Your input is blank!
+
+Please enter your choice > quit
+
+Process finished with exit code 0

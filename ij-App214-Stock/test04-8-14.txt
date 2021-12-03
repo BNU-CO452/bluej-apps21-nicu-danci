@@ -1,0 +1,271 @@
+"C:\Program Files\Java\jdk-17.0.1\bin\java.exe" "-javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Educational Edition 2021.2.3\lib\idea_rt.jar=59513:C:\Program Files\JetBrains\IntelliJ IDEA Educational Edition 2021.2.3\bin" -Dfile.encoding=UTF-8 -classpath D:\facultate\repositories\bluej-apps21-nicu-danci\ij-App214-Stock\out\production\ij-App214-Stock Main
+********************************
+  App21-04: Stock Application 
+      by Nicoara Danci
+********************************
+
+    1 Add:        Add a new product
+    2 Remove:     Remove a product
+    3 Print:      Print all products
+    4 Buy:        Buying products
+    5 Sell:       Selling products
+    6 Search:     Search product
+    7 Low Stock:  View low stock products
+    8 Restock:    Restock low stock products
+    9 Quit:       Quit the program
+
+Please enter your choice > buy
+Buying products
+
+Please enter a product ID >
+110
+Please enter the amount you want to buy >
+4
+Couln't find product
+You have bought 4 of HP 250
+
+New stock list:
+
+
+ IT Land Stock List
+ ====================
+
+ ID 101: Asus Zenbook 13 inch stock level: 0
+ ID 102: Lenovo IdeaPad L340 stock level: 0
+ ID 103: Samsung Galaxy Book stock level: 0
+ ID 104: MacBook Air 13.3 inch stock level: 0
+ ID 105: Lenovo ThinkPad C13 stock level: 0
+ ID 106: Asus A516 15.6 inch stock level: 0
+ ID 107: MacBook Pro 13.3 inch stock level: 0
+ ID 108: Lenovo Legion stock level: 0
+ ID 109: DELL XPS stock level: 0
+ ID 110: HP 250 stock level: 4
+
+********************************
+  App21-04: Stock Application 
+      by Nicoara Danci
+********************************
+
+    1 Add:        Add a new product
+    2 Remove:     Remove a product
+    3 Print:      Print all products
+    4 Buy:        Buying products
+    5 Sell:       Selling products
+    6 Search:     Search product
+    7 Low Stock:  View low stock products
+    8 Restock:    Restock low stock products
+    9 Quit:       Quit the program
+
+Please enter your choice > 
+Your input is blank!
+
+Please enter your choice > sell
+Selling products
+
+Please enter a product ID >
+125
+Product ID not found !
+********************************
+  App21-04: Stock Application 
+      by Nicoara Danci
+********************************
+
+    1 Add:        Add a new product
+    2 Remove:     Remove a product
+    3 Print:      Print all products
+    4 Buy:        Buying products
+    5 Sell:       Selling products
+    6 Search:     Search product
+    7 Low Stock:  View low stock products
+    8 Restock:    Restock low stock products
+    9 Quit:       Quit the program
+
+Please enter your choice > 
+Your input is blank!
+
+Please enter your choice > sell
+Selling products
+
+Please enter a product ID >
+110
+Please enter the amount you want to sell >
+4
+Sold 4 of HP 250
+
+New stock list:
+
+
+ IT Land Stock List
+ ====================
+
+ ID 101: Asus Zenbook 13 inch stock level: 0
+ ID 102: Lenovo IdeaPad L340 stock level: 0
+ ID 103: Samsung Galaxy Book stock level: 0
+ ID 104: MacBook Air 13.3 inch stock level: 0
+ ID 105: Lenovo ThinkPad C13 stock level: 0
+ ID 106: Asus A516 15.6 inch stock level: 0
+ ID 107: MacBook Pro 13.3 inch stock level: 0
+ ID 108: Lenovo Legion stock level: 0
+ ID 109: DELL XPS stock level: 0
+ ID 110: HP 250 stock level: 0
+
+********************************
+  App21-04: Stock Application 
+      by Nicoara Danci
+********************************
+
+    1 Add:        Add a new product
+    2 Remove:     Remove a product
+    3 Print:      Print all products
+    4 Buy:        Buying products
+    5 Sell:       Selling products
+    6 Search:     Search product
+    7 Low Stock:  View low stock products
+    8 Restock:    Restock low stock products
+    9 Quit:       Quit the program
+
+Please enter your choice > 
+Your input is blank!
+
+Please enter your choice > sell
+Selling products
+
+Please enter a product ID >
+105
+Please enter the amount you want to sell >
+100
+Cannot sell 100 of Lenovo ThinkPad C13 because only have 0
+
+New stock list:
+
+
+ IT Land Stock List
+ ====================
+
+ ID 101: Asus Zenbook 13 inch stock level: 0
+ ID 102: Lenovo IdeaPad L340 stock level: 0
+ ID 103: Samsung Galaxy Book stock level: 0
+ ID 104: MacBook Air 13.3 inch stock level: 0
+ ID 105: Lenovo ThinkPad C13 stock level: 0
+ ID 106: Asus A516 15.6 inch stock level: 0
+ ID 107: MacBook Pro 13.3 inch stock level: 0
+ ID 108: Lenovo Legion stock level: 0
+ ID 109: DELL XPS stock level: 0
+ ID 110: HP 250 stock level: 0
+
+********************************
+  App21-04: Stock Application 
+      by Nicoara Danci
+********************************
+
+    1 Add:        Add a new product
+    2 Remove:     Remove a product
+    3 Print:      Print all products
+    4 Buy:        Buying products
+    5 Sell:       Selling products
+    6 Search:     Search product
+    7 Low Stock:  View low stock products
+    8 Restock:    Restock low stock products
+    9 Quit:       Quit the program
+
+Please enter your choice > 
+Your input is blank!
+
+Please enter your choice > search
+Search for a product
+Please enter product name >Asus
+
+ ID 101: Asus Zenbook 13 inch stock level: 0
+ ID 106: Asus A516 15.6 inch stock level: 0
+********************************
+  App21-04: Stock Application 
+      by Nicoara Danci
+********************************
+
+    1 Add:        Add a new product
+    2 Remove:     Remove a product
+    3 Print:      Print all products
+    4 Buy:        Buying products
+    5 Sell:       Selling products
+    6 Search:     Search product
+    7 Low Stock:  View low stock products
+    8 Restock:    Restock low stock products
+    9 Quit:       Quit the program
+
+Please enter your choice > low
+
+Low Stocks:
+ ID 101: Asus Zenbook 13 inch stock level: 0
+Low Stocks:
+ ID 102: Lenovo IdeaPad L340 stock level: 0
+Low Stocks:
+ ID 103: Samsung Galaxy Book stock level: 0
+Low Stocks:
+ ID 104: MacBook Air 13.3 inch stock level: 0
+Low Stocks:
+ ID 105: Lenovo ThinkPad C13 stock level: 0
+Low Stocks:
+ ID 106: Asus A516 15.6 inch stock level: 0
+Low Stocks:
+ ID 107: MacBook Pro 13.3 inch stock level: 0
+Low Stocks:
+ ID 108: Lenovo Legion stock level: 0
+Low Stocks:
+ ID 109: DELL XPS stock level: 0
+Low Stocks:
+ ID 110: HP 250 stock level: 0
+********************************
+  App21-04: Stock Application 
+      by Nicoara Danci
+********************************
+
+    1 Add:        Add a new product
+    2 Remove:     Remove a product
+    3 Print:      Print all products
+    4 Buy:        Buying products
+    5 Sell:       Selling products
+    6 Search:     Search product
+    7 Low Stock:  View low stock products
+    8 Restock:    Restock low stock products
+    9 Quit:       Quit the program
+
+Please enter your choice > restock
+
+Low stock products restocked
+
+New stock list:
+
+
+ IT Land Stock List
+ ====================
+
+ ID 101: Asus Zenbook 13 inch stock level: 5
+ ID 102: Lenovo IdeaPad L340 stock level: 5
+ ID 103: Samsung Galaxy Book stock level: 5
+ ID 104: MacBook Air 13.3 inch stock level: 5
+ ID 105: Lenovo ThinkPad C13 stock level: 5
+ ID 106: Asus A516 15.6 inch stock level: 5
+ ID 107: MacBook Pro 13.3 inch stock level: 5
+ ID 108: Lenovo Legion stock level: 5
+ ID 109: DELL XPS stock level: 5
+ ID 110: HP 250 stock level: 5
+
+********************************
+  App21-04: Stock Application 
+      by Nicoara Danci
+********************************
+
+    1 Add:        Add a new product
+    2 Remove:     Remove a product
+    3 Print:      Print all products
+    4 Buy:        Buying products
+    5 Sell:       Selling products
+    6 Search:     Search product
+    7 Low Stock:  View low stock products
+    8 Restock:    Restock low stock products
+    9 Quit:       Quit the program
+
+Please enter your choice > 9
+
+
+Process finished with exit code 0
